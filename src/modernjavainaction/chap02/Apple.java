@@ -1,0 +1,36 @@
+package modernjavainaction.chap02;
+
+public class Apple {
+    private Integer weight = 0;
+    private Color color;
+
+    public Apple(int weight, Color color) {
+        this.weight = weight;
+        this.color = color;
+    }
+
+    public Integer getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    @SuppressWarnings("boxing")
+    @Override
+    public String toString() {
+        return "Apple{" +
+                "weight=" + weight +
+                ", color=" + color +
+                '}';
+    }
+}

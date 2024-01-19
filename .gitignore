@@ -32,7 +32,7 @@ bin/
 .idea
 *.iws
 *.iml
+/src/*.iml
 *.ipr
 *.xml
 out
-src/modernjavainaction/chap02
